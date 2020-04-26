@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+    <link rel="stylesheet" href="style_main.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Krona+One&display=swap">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+       <title>Food Traveler</title>
+       <script type="text/javascript">
+        $(document).ready(function () {
+          $("#nav_menu").slicknav({
+              prependTo: "#mobilemenu"
+          });
+      });
+  </script>
+
+</head>
+<body>
+    <div class = "layout">
+    <header>
+        <i class="fab fa-fort-awesome fa-3x">Food Traveler</i>
+            <!-- This is the empty nav element that will serve as a placeholder for the slicknav version of .nav_menu. -->
+        <nav id="mobilemenu"></nav>
+        
+        <!-- default nav menu -->
+        <nav id="nav_menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="ChineseFood.html" id="foodlink">Food Stories</a></li>
+                <li><a href="#" class="lastitem">Map</a></li>
+            </ul>
+            </nav>
+    </header>
+    <main>
+        <h3>Love to Travel?</h3>
+        <img src="Sights.jpg" alt="Sights" class="picture1">
+    </main>
+    <section class="sec1">
+        <h3>Love Food?</h3>
+        <img src="Greek_Food.jpg" alt="Greek food" class="picture2">
+    </section>
+    <section class="sec2">
+        <h3> Look No Further!</h3>
+        <br><br>
+        <p> Explore our Food Stories setion and enjoy some travling food insperation!</p>
+    </section>
+    <footer>
+        <h5><a href="Design_spec.pdf" id="design">view our design spec by Xiangyi Li</a></h5>
+    </footer>
+</div>
+</body>
+</html>
